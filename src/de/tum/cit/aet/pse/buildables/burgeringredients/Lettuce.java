@@ -1,4 +1,4 @@
-package de.tum.in.ase.pse.buildables.burgeringredients;
+package de.tum.cit.aet.pse.buildables.burgeringredients;
 
 public enum Lettuce {
 	ICEBERG_LETTUCE,

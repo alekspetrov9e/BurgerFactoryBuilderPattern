@@ -1,6 +1,6 @@
-package de.tum.in.ase.pse.buildables;
+package de.tum.cit.aet.pse.buildables;
 
-import de.tum.in.ase.pse.buildables.burgeringredients.*;
+import de.tum.cit.aet.pse.buildables.burgeringredients.*;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,6 @@
-package de.tum.in.ase.pse;
+package de.tum.cit.aet.pse;
 
-import de.tum.in.ase.pse.buildables.Builder;
-import de.tum.in.ase.pse.buildables.burgeringredients.*;
+import de.tum.cit.aet.pse.buildables.Builder;
 
 public class BurgerRestaurant {
 
