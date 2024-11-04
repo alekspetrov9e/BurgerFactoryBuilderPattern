@@ -1,19 +1,16 @@
 package de.tum.cit.aet.pse;
 
-import de.tum.cit.aet.pse.buildables.Builder;
-
 public class BurgerRestaurant {
 
-	public void buildStandardBeefBurger(Builder<?> builder) {
-		// TODO Part 3:
+	// TODO 5: Implement the methods in the BurgerRestaurant class.
+
+	public void buildStandardBeefBurger() {
 	}
 
-	public void buildSpecialBeefBurger(Builder<?> builder) {
-		// TODO Part 3:
+	public void buildSpecialBeefBurger() {
 	}
 
-	public void buildStandardChickenBurger(Builder<?> builder) {
-		// TODO Part 3:
+	public void buildStandardChickenBurger() {
 	}
 
 }
