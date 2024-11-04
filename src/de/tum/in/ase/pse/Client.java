@@ -1,4 +1,4 @@
-package de.tum.cit.aet.pse;
+package de.tum.in.ase.pse;
 
 
 public final class Client {

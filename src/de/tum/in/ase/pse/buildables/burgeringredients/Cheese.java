@@ -1,4 +1,4 @@
-package de.tum.cit.aet.pse.buildables.burgeringredients;
+package de.tum.in.ase.pse.buildables.burgeringredients;
 
 public enum Cheese {
 	AMERICAN_CHEESE,
