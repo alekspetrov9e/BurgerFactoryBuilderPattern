@@ -1,6 +1,11 @@
 package de.tum.cit.aet.pse;
 
 
+import de.tum.cit.aet.pse.buildables.Burger;
+import de.tum.cit.aet.pse.buildables.BurgerBuilder;
+import de.tum.cit.aet.pse.buildables.IngredientsList;
+import de.tum.cit.aet.pse.buildables.IngredientsListBuilder;
+
 public final class Client {
 	private Client() {
 	}
@@ -9,7 +14,7 @@ public final class Client {
 
 		// You can uncomment the following code in order to test your implementation.
     	
-    	/*
+		/*
         BurgerRestaurant burgerRestaurant = new BurgerRestaurant();
 
 		BurgerBuilder burgerBuilder = new BurgerBuilder();
@@ -28,7 +33,7 @@ public final class Client {
 		Burger chickenBurger = burgerBuilder.getResult();
 
 		System.out.println("You have selected the following Burger: " + chickenBurger.toString());
-        */
+		*/
 
 	}
 }
