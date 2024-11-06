@@ -7,8 +7,8 @@ import de.tum.cit.aet.pse.buildables.burgeringredients.*;
 public class BurgerRestaurant {
 
 	// TODO 5: Implement the methods in the BurgerRestaurant class.
-	private Builder<Burger> burgerBuilder;
-	public void buildStandardBeefBurger() {
+
+	public void buildStandardBeefBurger(Builder<Burger> burgerBuilder) {
 		burgerBuilder.reset()
 				.addPatty(Patty.BEEF_PATTY)
 				.addBun(Bun.BRIOCHE_BUN)
@@ -20,7 +20,7 @@ public class BurgerRestaurant {
 				.addSauce(Sauce.KETCHUP);
 	}
 
-	public void buildSpecialBeefBurger() {
+	public void buildSpecialBeefBurger(Builder<Burger> burgerBuilder) {
 		burgerBuilder.reset()
 				.addPatty(Patty.BEEF_PATTY)
 				.addPatty(Patty.BEEF_PATTY)
@@ -36,7 +36,7 @@ public class BurgerRestaurant {
 				.addSauce(Sauce.BBQ_SAUCE);
 	}
 
-	public void buildStandardChickenBurger() {
+	public void buildStandardChickenBurger(Builder<Burger> burgerBuilder) {
 		burgerBuilder.reset().addPatty(Patty.CHICKEN_PATTY).addOnion(Onion.DEEP_FRIED_ONION)
 				.addTomato(Tomato.CHERRY_TOMATO).addBun(Bun.CIABATTA_BUN).addLettuce(Lettuce.GREEN_LEAF_LETTUCE)
 				.addPickle(Pickle.FULL_SOUR_PICKLE).addCheese(Cheese.GOUDA_CHEESE).addSauce(Sauce.YELLOW_MUSTARD)
